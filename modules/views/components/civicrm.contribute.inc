@@ -533,7 +533,8 @@ function _civicrm_contribute_data(&$data, $enabled) {
       'help' => t('Contribution -> Campaign'),
       'relationship' => array(
         'base' => 'civicrm_campaign',
-        'base field' => 'id',
+        'left_field' => 'id',
+        'field' => 'campaign_id',
         'handler' => 'views_handler_relationship',
         'label' => t('Contribution -> Campaign'),
       ),
