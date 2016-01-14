@@ -261,7 +261,7 @@ function _civicrm_price_set_data(&$data, $enabled) {
     'field' => array(
       'handler' => 'civicrm_handler_field_pseudo_constant',
       'pseudo class' => 'CRM_Contribute_PseudoConstant',
-      'pseudo method' => 'financialType',
+      'pseudo method' => 'allFinancialTypes',
       'click sortable' => TRUE,
     ),
     'argument' => array(
