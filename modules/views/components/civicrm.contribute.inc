@@ -121,7 +121,7 @@ function _civicrm_contribute_data(&$data, $enabled) {
       'handler' => 'civicrm_handler_field_pseudo_constant',
       'click sortable' => TRUE,
       'pseudo class' => 'CRM_Contribute_PseudoConstant',
-      'pseudo method' => 'financialType',
+      'pseudo method' => 'allFinancialTypes',
     ),
     'argument' => array(
       'handler' => 'views_handler_argument',
@@ -130,7 +130,7 @@ function _civicrm_contribute_data(&$data, $enabled) {
       'handler' => 'civicrm_handler_filter_pseudo_constant',
       'allow empty' => TRUE,
       'pseudo class' => 'CRM_Contribute_PseudoConstant',
-      'pseudo method' => 'financialType',
+      'pseudo method' => 'allFinancialTypes',
     ),
     'sort' => array(
       'handler' => 'views_handler_sort',
